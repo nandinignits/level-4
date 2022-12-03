@@ -1,0 +1,38 @@
+{
+    "name": "hello-node",
+    "version": "1.0.0",
+    "description": "",
+    "main": "todo.js",
+    "scripts": {
+      "test": "jest",
+      "prepare": "husky install"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nandinignits/wd-201-level-4.git"
+    },
+    "author": "nandinignits <nandinignits1234@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/nandinignits/wd-201-level-4/issues"
+    },
+    "homepage": "https://github.com/nandinignits/wd-201-level-4#readme",
+    "dependencies": {
+      "minimist": "^1.2.7"
+    },
+    "lint-staged": {
+      "*.js": [
+        "eslint",
+        
+        "prettier --write ."
+      ]
+    },
+  
+    "devDependencies": {
+      "eslint": "^8.24.0",
+      "husky": "^8.0.2",
+      "jest": "true",
+      "lint-staged": "^13.0.3",
+      "prettier": "^2.7.1"
+    }
+  }
